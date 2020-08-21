@@ -1,0 +1,361 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ag-header {
+  height: 853px;
+}
+
+.ag-header-phone {
+  font-size: 16px;
+  color: #f8f9f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.ag-header-phone:hover {
+  color: #e1e697;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ag-header-phone img {
+  margin-right: 10px;
+}
+
+.ag-header-social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 10px 0px 0px 0px;
+}
+
+.ag-header-social-link-list {
+  margin-right: 5px;
+}
+
+.ag-header-menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.ag-header-menu-item-list {
+  margin-right: 70px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.ag-header-menu-item-list:nth-last-child(-n+1) {
+  margin-right: 0;
+}
+
+.ag-header-menu-item-list:hover {
+  color: #e1e697;
+  cursor: pointer;
+}
+
+.ag-header-welcome-text {
+  font-family: 'Satisfy';
+  font-size: 60px;
+  text-align: center;
+  margin-top: 240px;
+  color: #fff;
+}
+
+.ag-header-title {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+.ag-header-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 30px auto 0px auto;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.ag-header-btn:hover {
+  background: #e1e697;
+  text-decoration: none;
+  color: #000;
+}
+
+.ag-btn {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #e1e697;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.ag-food-menu {
+  margin-bottom: 50px;
+}
+
+.ag-food-menu-title {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ag-food-menu-text {
+  font-size: 24px;
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+.ag-food-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.ag-food-overlay-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.ag-food-overlay-hover:hover {
+  opacity: 1;
+}
+
+.ag-food-overlay-hover span {
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.ag-food-overlay-link {
+  width: 150px;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #e1002f;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.ag-food-overlay-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ag-food-overlay-link:hover {
+  background: #e1002f;
+}
+
+.ag-food-img {
+  width: 100%;
+}
+
+.ag-food-name {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #e1002f;
+}
+
+.ag-food-info {
+  font-size: 12px;
+}
+
+.ag-q-layout {
+  background: #f8f9f0;
+}
+
+.ag-q-layout-title {
+  font-size: 36px;
+  margin-top: 90px;
+}
+
+.ag-q-layout-text {
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  margin-top: 30px;
+}
+
+.ag-q-layout-autograph {
+  font-family: 'Mr De Haviland', sans-serif;
+  font-size: 40px;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.ag-q-layout-img {
+  display: block;
+  margin-left: auto;
+  width: 354px;
+}
+
+.ag-q-layout-img-mobile {
+  display: none;
+}
+
+.ag-features {
+  position: relative;
+  text-align: center;
+}
+
+.ag-features-img {
+  position: absolute;
+  left: -70px;
+  width: 500px;
+}
+
+.ag-features-title {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: 75px;
+  text-align: center;
+}
+
+.ag-features-text {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  display: block;
+}
+
+.ag-comments {
+  background: #f8f9f0;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.ag-comments-title {
+  font-size: 36px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.ag-comments-img {
+  display: block;
+  margin: auto;
+}
+
+.ag-comments-names {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.ag-comments-text {
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.slick-active {
+  outline: none;
+}
+
+.slick-dots li {
+  width: 0px;
+}
+
+.slick-dots li button:before {
+  font-size: 30px;
+}
+
+.ag-footer {
+  position: relative;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.ag-footer span {
+  display: block;
+  margin-top: 35px;
+}
+
+.ag-footer-text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.ag-footer-social {
+  margin-top: 30px;
+}
+
+.ag-footer-social-item {
+  margin-right: 15px;
+}
+
+.ag-footer-copyright {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

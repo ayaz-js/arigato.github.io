@@ -1,0 +1,47 @@
+@media screen and (max-width: 1199px) {
+    .ag-q-layout-img {
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ag-header {
+        height: 650px;
+    }
+
+    .ag-header-welcome-text {
+        margin-top: 125px;
+    }
+
+    .ag-q-layout-autograph {
+        margin-bottom: 0;
+    }
+
+    .ag-features-title {
+        font-size: 26px;
+    }
+
+    .ag-q-layout-img {
+        display: none;
+    }
+
+    .ag-q-layout-img-mobile {
+        display: block;
+        margin: auto;
+    }
+
+    .ag-features-img {
+        display: none;
+    }
+    .ag-footer {
+        text-align: center;
+        &-info {
+            margin-top: 30px;
+        }
+        &-copyright {
+            margin-top: 30px;
+        }
+    }
+
+}
+
