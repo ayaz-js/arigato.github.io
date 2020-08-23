@@ -5,11 +5,14 @@
 }
 
 @media screen and (max-width: 991px) {
-  .ag-header {
-    height: 650px;
-  }
   .ag-header-welcome-text {
     margin-top: 125px;
+  }
+  .ag-food-name {
+    font-size: 24px;
+  }
+  .ag-food-info {
+    font-size: 16px;
   }
   .ag-q-layout-autograph {
     margin-bottom: 0;
@@ -37,4 +40,4 @@
     margin-top: 30px;
   }
 }
-# sourceMappingURL=responsive.css.map
+/*# sourceMappingURL=responsive.css.map */
