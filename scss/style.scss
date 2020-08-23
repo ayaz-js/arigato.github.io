@@ -49,6 +49,10 @@ body {
 
     &-social-link-list {
         margin-right: 5px;
+
+        &:nth-last-child(-n+1) {
+            margin-right: 0;
+        }
     }
 
     &-menu-item {
@@ -112,12 +116,14 @@ body {
 
 .ag-food-menu {
     margin-bottom: 50px;
+
     &-title {
         font-size: 40px;
         font-weight: 300;
         text-align: center;
         margin-top: 30px;
     }
+
     &-text {
         font-size: 24px;
         font-weight: 300;
@@ -133,6 +139,7 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 .ag-food-overlay-hover {
     position: absolute;
     left: 0;
@@ -145,11 +152,13 @@ body {
     text-align: center;
     justify-content: center;
     opacity: 0;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     transition: $hoverTransition;
+
     &:hover {
         opacity: 1;
     }
+
     span {
         letter-spacing: 5px;
         margin-bottom: 10px;
@@ -167,10 +176,12 @@ body {
     justify-content: center;
     border: 1px solid #e1002f;
     transition: $hoverTransition;
+
     a {
         text-decoration: none;
         color: #fff;
     }
+
     &:hover {
         background: #e1002f;
     }
@@ -179,6 +190,7 @@ body {
 .ag-food-img {
     width: 100%;
 }
+
 .ag-food-name {
     display: block;
     font-size: 12px;
@@ -190,6 +202,7 @@ body {
 .ag-food-info {
     font-size: 12px;
 }
+
 // Menu End
 
 .ag-q-layout {
@@ -300,20 +313,25 @@ body {
     position: relative;
     padding-top: 30px;
     overflow: hidden;
+
     span {
         display: block;
         margin-top: 35px;
     }
+
     &-text {
         font-size: $fontText;
         font-weight: 300;
     }
+
     &-social {
         margin-top: 30px;
     }
+
     &-social-item {
         margin-right: 15px;
     }
+
     &-copyright {
         font-size: 12px;
         font-weight: 300;

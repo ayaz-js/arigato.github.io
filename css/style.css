@@ -46,6 +46,10 @@ body {
   margin-right: 5px;
 }
 
+.ag-header-social-link-list:nth-last-child(-n+1) {
+  margin-right: 0;
+}
+
 .ag-header-menu-item {
   display: -webkit-box;
   display: -ms-flexbox;
