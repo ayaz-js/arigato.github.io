@@ -49,3 +49,27 @@
     }
 
 }
+
+@media screen and (max-width: 425px) {
+    .ag-modal__container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ag-modal__form {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .ag-modal__container {
+        width: 320px;
+        height: 100%;
+    }
+
+    .ag-modal__form {
+        margin-top: 100px;
+    }
+}

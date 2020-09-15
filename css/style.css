@@ -362,4 +362,115 @@ body {
   font-weight: 300;
   margin-top: 30px;
 }
+
+.ag-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.ag-modal__container {
+  position: fixed;
+  width: 500px;
+  height: 350px;
+  background-color: #e1002f;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.ag-modal__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #e1e697;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+}
+
+.ag-modal__close {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: none;
+  margin-left: auto;
+  border: 0;
+}
+
+.ag-modal__close:focus {
+  outline: none;
+}
+
+.ag-modal__close-icon {
+  position: absolute;
+  top: 4px;
+  left: 13px;
+  bottom: 5px;
+  border: 1px solid #FFF;
+}
+
+.ag-modal__close-left {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.ag-modal__close-right {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.ag-modal__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.ag-modal__form-line {
+  background-color: #f8f9f0;
+  border: 1px;
+  margin-top: 15px;
+  padding-left: 10px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.ag-modal__form-line:focus {
+  outline: none;
+}
+
+.ag-modal__submit {
+  margin-top: 10px;
+  width: 150px;
+  background-color: #e1e697;
+  border: 2px solid #e1e697;
+  border-radius: 10px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.ag-modal__submit:focus {
+  outline: none;
+}
 /*# sourceMappingURL=style.css.map */
